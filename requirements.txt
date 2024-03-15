@@ -3,3 +3,4 @@ python-multipart
 streamlit
 pathlib
 PyPDF2
+torch
