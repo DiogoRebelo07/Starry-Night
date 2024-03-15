@@ -1,4 +1,5 @@
-fastapi
-uvicorn
 transformers
 python-multipart
+streamlit
+pathlib
+PyPDF2
