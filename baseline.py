@@ -6,8 +6,8 @@ from transformers import BigBirdPegasusForConditionalGeneration, AutoTokenizer
 # # Initialize tokenizer and model
 st.cache_data()
 def get_models():
-    tokenizer = AutoTokenizer.from_pretrained("bigbird-pegasus-large-pubmed-tokenizer")
-    model = BigBirdPegasusForConditionalGeneration.from_pretrained("bigbird-pegasus-large-pubmed-model")
+    tokenizer = AutoTokenizer.from_pretrained("google/bigbird-pegasus-large-pubmed")
+    model = BigBirdPegasusForConditionalGeneration.from_pretrained("google/bigbird-pegasus-large-pubmed")
     return tokenizer, model
 
 # Your existing functions here (extract_results_section, generate_summary, write_summaries_to_file)
