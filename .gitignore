@@ -1,3 +1,7 @@
+bigbird-pegasus-large-pubmed-model
+
+bigbird-pegasus-large-pubmed-tokenizer
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
