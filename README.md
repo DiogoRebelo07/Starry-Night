@@ -1,5 +1,5 @@
 # Starry-Night
-Personal Project -Summarizer of research articles
+Personal Project - Summarizer of research articles
 
 Please use the stable version i.e. the file named "stable.py"
 
